@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View } from "react-native";
+
 import FirstView from "./components/screens/FirstView";
 import NavigationComponent from "./components/NavigationComponent";
 
@@ -14,6 +15,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    paddingTop: 50,
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
