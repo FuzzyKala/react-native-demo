@@ -14,7 +14,7 @@ export default function NavigationComponent() {
           <Stack.Screen
             name="FirstViewScreen"
             component={FirstView}
-            options={{ headerShown: true }}
+            // options={{ headerShown: true }}
           ></Stack.Screen>
         </Stack.Navigator>
       </NavigationContainer>
