@@ -1,12 +1,12 @@
 import { FlatList, StyleSheet, Text, View } from "react-native";
 import React from "react";
-import FirstView from "./components/lesson6/screens/FirstView";
 
 import ButtonDemo from "./components/lesson4/ButtonDemo";
 import TextDemo from "./components/lesson4/TextDemo";
 import CountryItem from "./components/lesson5/CountryItem";
 import L5FlatList from "./components/lesson5/FlatList";
 import NavigationComponent from "./components/lesson6/NavigationComponent";
+import DataFetching from "./components/lesson7/DataFetching";
 
 export default function App() {
   return (
@@ -15,19 +15,20 @@ export default function App() {
       {/* <ButtonDemo /> */}
       {/* <TextDemo /> */}
       {/* <L5FlatList /> */}
-      <NavigationComponent />
+      {/* <NavigationComponent /> */}
+      <DataFetching />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    // backgroundColor: "#fff",
-    // alignItems: "center",
-    // justifyContent: "center",
-    // paddingTop: 50,
-    // borderWidth: 1,
-    // borderRadius: 5,
+    flexDirection: "column",
+    backgroundColor: "#D00",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "100%",
+    height: "100%",
+    paddingTop: 40,
   },
 });

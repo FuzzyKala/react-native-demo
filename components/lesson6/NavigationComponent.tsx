@@ -13,7 +13,6 @@ export default function NavigationComponent() {
 
   return (
     <View style={styles.container}>
-      {/* <Text>Navi</Text> */}
       <NavigationContainer>
         <Stack.Navigator>
           <Stack.Screen
