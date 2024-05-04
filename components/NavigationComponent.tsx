@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-import FirstView from "./screens/FirstView";
+import FirstView from "./lesson6/FirstView";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
@@ -12,10 +12,11 @@ export default function NavigationComponent() {
       <NavigationContainer>
         <Stack.Navigator>
           <Stack.Screen
-            name="FirstViewScreen"
+            name="FirstView"
             component={FirstView}
-            // options={{ headerShown: true }}
-          ></Stack.Screen>
+            options={{ headerShown: true }}
+          />
+          <Text>123</Text>
         </Stack.Navigator>
       </NavigationContainer>
     </View>

@@ -1,13 +1,20 @@
-import { StyleSheet, Text, View } from "react-native";
-
-import FirstView from "./components/screens/FirstView";
+import { FlatList, StyleSheet, Text, View } from "react-native";
+import React from "react";
+import FirstView from "./components/lesson6/FirstView";
 import NavigationComponent from "./components/NavigationComponent";
+
+import ButtonDemo from "./components/lesson4/ButtonDemo";
+import TextDemo from "./components/lesson4/TextDemo";
+import CountryItem from "./components/lesson5/CountryItem";
+import L5FlatList from "./components/lesson5/FlatList";
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
-      <NavigationComponent />
+      {/* <ButtonDemo /> */}
+      {/* <TextDemo /> */}
+      <L5FlatList />
     </View>
   );
 }
